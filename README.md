@@ -10,7 +10,7 @@ catálogo, produto, carrinho + camada citável por IA (JSON-LD, `llms.txt`, `fee
 
 ```bash
 python3 -m http.server 8140
-# abrir http://localhost:8140 (precisa do back em :3111 — ver repo do back)
+# abrir http://localhost:8140 (precisa do back em :3001 — ver repo do back)
 ```
 
 ## Ligar ao back
@@ -19,7 +19,7 @@ Ordem de resolução em `assets/js/api.js`:
 1. `?api=<url>` na querystring (salva no navegador)
 2. `window.__API_BASE__` (em `assets/js/config.js` — gravado no deploy via variável `API_URL`)
 3. `localStorage 'api_base'`
-4. `http://localhost:3111`
+4. `http://localhost:3001`
 
 ## Deploy
 
